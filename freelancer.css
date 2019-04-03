@@ -1,0 +1,127 @@
+.jumbotron{
+	text-align: center;
+	padding-top: auto;
+}
+.navbar{
+	font-size: 20px;
+	background-color: #2C3E50;
+	height: 100px;
+  	padding: 30px;
+}
+.navbar-header .navbar-brand{
+	color: white; 
+	font-size: 33px;		
+}
+.navbar .container .collapse ul a{
+	font-size: 16px;
+	color: white;
+	padding-left: 20px;
+	margin: 0;
+	display: block;
+	/*padding: 0;*/
+	/*padding-top: 50%;*/
+}
+
+.second{
+	background-color: #18bc9c;
+}
+.third{
+	background-color: white;
+}
+
+hr{
+	width: 400px;
+}
+.jumbotron h1{
+	font-size: 80px;
+}
+.second{
+	color: white;
+}
+#portfolio{
+	color: #2C3E50;
+	font-size: 50px;
+}
+.jumbotron .image{
+	padding: 40px;	
+}
+.jumbotron h3{
+	font-size: 30px;
+}
+.abt{
+	background-color: #18bc9c;
+	height: 600px;
+}
+.abt button{
+	background-color:#18bc9c; 
+	border-width: 1.5px; 
+	border-color: white; 
+	color: white; padding: 20px; 
+	font-size: 20px;
+}
+.container button.btn-send{
+	background-color: #18bc9c;	
+	color: white;
+	padding:20px 20px;
+}
+.thumbnail{
+	border: 0;
+	/*margin: 3px;*/
+}
+#about{
+	color: white;
+	font-size: 50px;
+}
+#contact{
+	color: #2C3E50;
+	font-size: 50px;
+}
+.footer .container .row .xy{
+	color: white; 
+	font-size: 45px;
+}
+.footer .container .row .xy .z{
+	font-size: 17px;
+	color: white;
+}
+.xy ul li button{
+	/*list-style-type: none;*/
+	border-radius: 100%;
+	background-color: #2C3E50  
+}
+/*#about{
+	color: white;
+	font-size: 50px;
+}
+
+	color: white;
+}*/
+.p_left{
+	width: 50%;
+	display: block;
+	text-align: left;
+	color: white;
+	padding-left: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.p_right{
+	width: 50%;
+	display: block;
+	text-align: left;
+	color: white;
+	margin: auto;
+	padding-right: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.foot{
+	height: 60px;
+	padding: 50px;
+	background-color: #081F30;
+	text-align: center;
+	color: white;
+}
+.footer{
+	height: 250px;
+}
