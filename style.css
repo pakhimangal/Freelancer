@@ -5,8 +5,19 @@
 .navbar{
 	font-size: 20px;
 	background-color: #2C3E50;
-	height: 100px;
+	max-height: 100px;
   	padding: 30px;
+}
+.second{
+	padding-top: 70px;
+}
+.second .image img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.row .container .thumbnail:hover{
+	opacity: 0.5;
 }
 .navbar-header .navbar-brand{
 	color: white; 
@@ -30,7 +41,7 @@
 }
 
 hr{
-	width: 400px;
+	max-width: 400px;
 }
 .jumbotron h1{
 	font-size: 80px;
@@ -50,7 +61,7 @@ hr{
 }
 .abt{
 	background-color: #18bc9c;
-	height: 600px;
+	max-height: 600px;
 }
 .abt button{
 	background-color:#18bc9c; 
@@ -83,11 +94,14 @@ hr{
 .footer .container .row .xy .z{
 	font-size: 17px;
 	color: white;
+	font-style: lato;
 }
 .xy ul li button{
 	/*list-style-type: none;*/
 	border-radius: 100%;
-	background-color: #2C3E50  
+	background-color: #2C3E50;
+	padding: 50%;  
+	/*box-sizing: 20px;*/
 }
 /*#about{
 	color: white;
@@ -97,7 +111,7 @@ hr{
 	color: white;
 }*/
 .p_left{
-	width: 50%;
+	max-width: 50%;
 	display: block;
 	text-align: left;
 	color: white;
@@ -106,7 +120,7 @@ hr{
 	padding-bottom: 20px;
 }
 .p_right{
-	width: 50%;
+	max-width: 50%;
 	display: block;
 	text-align: left;
 	color: white;
@@ -116,12 +130,12 @@ hr{
 	padding-bottom: 20px;
 }
 .foot{
-	height: 60px;
+	max-height: 60px;
 	padding: 50px;
 	background-color: #081F30;
 	text-align: center;
 	color: white;
 }
 .footer{
-	height: 250px;
+	max-height: 250px;
 }
